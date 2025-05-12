@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		0FE907CBF2674A38A358FF26 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CB5515523E64F10A531A463 /* MaterialIcons.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		158D33B26B684E98832E10CB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C52ECCD63E541F3916BDD2C /* Octicons.ttf */; };
+		1C8DD0ACD6C04F678297BC0E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91E98A0C5104160B0A98492 /* Feather.ttf */; };
+		3E125EEDA879400AAADC4B4C /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B1F7F5BD8946108F5EC2FC /* Zocial.ttf */; };
+		4C52AB2EC4104FE39032D3F0 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E5FBD5A4BE480C8F148F1F /* Fontisto.ttf */; };
+		501F48CD6B944AF8B807D0D5 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7572EA7E9E64A5C83E7C3D8 /* AntDesign.ttf */; };
+		563451502B2F474CBD4849E0 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98E2DCA9ED9415F81421B70 /* Foundation.ttf */; };
+		5C5885832322091E00D15C10 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		5C8A42BFA2744D89AD86B2D3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F3583270662487F9FC1633E /* Entypo.ttf */; };
+		5C970B7323468E9D0033DE25 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54DFDC371B35464EB277DDF0 /* FontAwesome.ttf */; };
+		5C970B7423468E9D0033DE25 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDCC661D342F4B50BE708644 /* Ionicons.ttf */; };
+		5C970B7523468E9D0033DE25 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8382B233566E4B3D801CDF34 /* MaterialCommunityIcons.ttf */; };
+		5CC1EF3C23846475004D939F /* Watermelon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1EF3B23846475004D939F /* Watermelon.swift */; };
+		5CD03C772316215C0067B7F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CD03C762316215B0067B7F7 /* GoogleService-Info.plist */; };
+		5CE35B5E2384EC1500013811 /* libWatermelonDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE35B5D2384EC0500013811 /* libWatermelonDB.a */; };
+		5CE403142316C66B00EB0A89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE403122316C66A00EB0A89 /* SystemConfiguration.framework */; };
+		5CE403162316C67800EB0A89 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE403152316C67800EB0A89 /* CoreTelephony.framework */; };
+		5CE403182316C68B00EB0A89 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE403172316C68B00EB0A89 /* libsqlite3.0.tbd */; };
+		5CE4031A2316C69B00EB0A89 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE403192316C69B00EB0A89 /* libc++.tbd */; };
+		5CE4031C2316C6A700EB0A89 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE4031B2316C6A700EB0A89 /* libz.tbd */; };
+		5CE4031E2316C77300EB0A89 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE4031D2316C77300EB0A89 /* SafariServices.framework */; };
+		5CE403202316C78200EB0A89 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE4031F2316C78100EB0A89 /* AddressBook.framework */; };
+		5CE403232316C7A400EB0A89 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE403212316C7A300EB0A89 /* AuthenticationServices.framework */; };
+		5CE403242316C7A400EB0A89 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE403222316C7A400EB0A89 /* LocalAuthentication.framework */; };
+		5CE4032D2316D44600EB0A89 /* cityseekerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE4032C2316D44600EB0A89 /* cityseekerTests.m */; };
+		5CEB0CC723820DA9005118EA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB0CC623820DA8005118EA /* AudioToolbox.framework */; };
+		5CEB0CC923820DBB005118EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB0CC823820DBB005118EA /* AVFoundation.framework */; };
+		5CEB0CCB23820DCF005118EA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB0CCA23820DCF005118EA /* CoreAudio.framework */; };
+		5CEB0CCD23820DDF005118EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB0CCC23820DDF005118EA /* CoreGraphics.framework */; };
+		5CEB0CCF23820DEE005118EA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB0CCE23820DEE005118EA /* CoreVideo.framework */; };
+		5CEB0CD123820E48005118EA /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB0CD023820E36005118EA /* libc.tbd */; };
+		5CEB0CD323820E6A005118EA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB0CD223820E6A005118EA /* VideoToolbox.framework */; };
+		63A6AC992CA8DB9A9A07433B /* libPods-cityseekerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB567AC188456B1F7B6F38F /* libPods-cityseekerTests.a */; };
+		6C24C7F7BEA54F29B7C775C5 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB5FE935C4154D90947A24CE /* EvilIcons.ttf */; };
+		6F6121AFA82C4736985084E5 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E62BDAA8AF457398D05E22 /* SimpleLineIcons.ttf */; };
+		7418E262B6954FA1A26C71CE /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F68F358BB6F4F659E003D5E /* FontAwesome5_Brands.ttf */; };
+		A1AEDF6C555148B993AC1FF0 /* pingfang.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C7A854E526C49729F732D7F /* pingfang.ttf */; };
+		AB455F606C33422AB2CA3A79 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5484AAEB765E468D9C7BFFD5 /* FontAwesome5_Regular.ttf */; };
+		C72E77725E9E412D906BF155 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E102D82D1754441CA6B9D174 /* FontAwesome5_Solid.ttf */; };
+		FD527D4DBF35D8037E37C25B /* libPods-cityseeker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5491B2D7285338AA0F06BF35 /* libPods-cityseeker.a */; };
+		FFF4B94C94BC484DAC3F0EE0 /* cityseeker.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFC72B592DA44FFCB87EB0A1 /* cityseeker.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CE35B5C2384EC0500013811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CE35B582384EC0500013811 /* WatermelonDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6E660D5E213BCCD300189354;
+			remoteInfo = WatermelonDB;
+		};
+		5CE4032F2316D44600EB0A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = cityseeker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C9E895A232970190025C252 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* cityseeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cityseeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cityseeker/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = cityseeker/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cityseeker/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cityseeker/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cityseeker/main.m; sourceTree = "<group>"; };
+		1F3583270662487F9FC1633E /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		21B1F7F5BD8946108F5EC2FC /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		4F68F358BB6F4F659E003D5E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		5484AAEB765E468D9C7BFFD5 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		5491B2D7285338AA0F06BF35 /* libPods-cityseeker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cityseeker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DFDC371B35464EB277DDF0 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		5C7A854E526C49729F732D7F /* pingfang.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = pingfang.ttf; path = ../src/common/assets/fonts/pingfang.ttf; sourceTree = "<group>"; };
+		5CB055CF2322CF48004ACE9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CC1EF3A23846474004D939F /* cityseeker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cityseeker-Bridging-Header.h"; sourceTree = "<group>"; };
+		5CC1EF3B23846475004D939F /* Watermelon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermelon.swift; sourceTree = "<group>"; };
+		5CD03C762316215B0067B7F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CD90C482315930E0066FBD4 /* cityseeker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = cityseeker.entitlements; path = cityseeker/cityseeker.entitlements; sourceTree = "<group>"; };
+		5CE35B582384EC0500013811 /* WatermelonDB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WatermelonDB.xcodeproj; path = "../node_modules/@nozbe/watermelondb/native/ios/WatermelonDB.xcodeproj"; sourceTree = "<group>"; };
+		5CE403122316C66A00EB0A89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5CE403152316C67800EB0A89 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5CE403172316C68B00EB0A89 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5CE403192316C69B00EB0A89 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5CE4031B2316C6A700EB0A89 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5CE4031D2316C77300EB0A89 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		5CE4031F2316C78100EB0A89 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5CE403212316C7A300EB0A89 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		5CE403222316C7A400EB0A89 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		5CE4032A2316D44600EB0A89 /* cityseekerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityseekerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE4032C2316D44600EB0A89 /* cityseekerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cityseekerTests.m; sourceTree = "<group>"; };
+		5CE4032E2316D44600EB0A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEB0CC623820DA8005118EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5CEB0CC823820DBB005118EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5CEB0CCA23820DCF005118EA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		5CEB0CCC23820DDF005118EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CEB0CCE23820DEE005118EA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5CEB0CD023820E36005118EA /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		5CEB0CD223820E6A005118EA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		63E62BDAA8AF457398D05E22 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		7ADB457ECBECE4DFA835F585 /* Pods-cityseeker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cityseeker.debug.xcconfig"; path = "Target Support Files/Pods-cityseeker/Pods-cityseeker.debug.xcconfig"; sourceTree = "<group>"; };
+		7CB5515523E64F10A531A463 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		8382B233566E4B3D801CDF34 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		8C52ECCD63E541F3916BDD2C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		A7572EA7E9E64A5C83E7C3D8 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A9E4C53AB2EF078D49CA2D79 /* Pods-cityseekerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cityseekerTests.release.xcconfig"; path = "Target Support Files/Pods-cityseekerTests/Pods-cityseekerTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB5FE935C4154D90947A24CE /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		AEAAF80C7535C44EAA562E7B /* Pods-cityseeker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cityseeker.release.xcconfig"; path = "Target Support Files/Pods-cityseeker/Pods-cityseeker.release.xcconfig"; sourceTree = "<group>"; };
+		AFC72B592DA44FFCB87EB0A1 /* cityseeker.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = cityseeker.ttf; path = ../src/common/assets/fonts/cityseeker.ttf; sourceTree = "<group>"; };
+		CA34021015C6C6D983BA7C2F /* Pods-cityseekerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cityseekerTests.debug.xcconfig"; path = "Target Support Files/Pods-cityseekerTests/Pods-cityseekerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDCC661D342F4B50BE708644 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		DEB567AC188456B1F7B6F38F /* libPods-cityseekerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cityseekerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E102D82D1754441CA6B9D174 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		E7E5FBD5A4BE480C8F148F1F /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E91E98A0C5104160B0A98492 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F98E2DCA9ED9415F81421B70 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5885832322091E00D15C10 /* JavaScriptCore.framework in Frameworks */,
+				5CEB0CD323820E6A005118EA /* VideoToolbox.framework in Frameworks */,
+				5CE403232316C7A400EB0A89 /* AuthenticationServices.framework in Frameworks */,
+				5CE403242316C7A400EB0A89 /* LocalAuthentication.framework in Frameworks */,
+				5CEB0CCB23820DCF005118EA /* CoreAudio.framework in Frameworks */,
+				5CE403202316C78200EB0A89 /* AddressBook.framework in Frameworks */,
+				5CE4031E2316C77300EB0A89 /* SafariServices.framework in Frameworks */,
+				5CEB0CC723820DA9005118EA /* AudioToolbox.framework in Frameworks */,
+				5CE4031C2316C6A700EB0A89 /* libz.tbd in Frameworks */,
+				5CE4031A2316C69B00EB0A89 /* libc++.tbd in Frameworks */,
+				5CE403182316C68B00EB0A89 /* libsqlite3.0.tbd in Frameworks */,
+				5CE403162316C67800EB0A89 /* CoreTelephony.framework in Frameworks */,
+				5CE403142316C66B00EB0A89 /* SystemConfiguration.framework in Frameworks */,
+				5CEB0CCD23820DDF005118EA /* CoreGraphics.framework in Frameworks */,
+				5CEB0CCF23820DEE005118EA /* CoreVideo.framework in Frameworks */,
+				5CEB0CC923820DBB005118EA /* AVFoundation.framework in Frameworks */,
+				5CEB0CD123820E48005118EA /* libc.tbd in Frameworks */,
+				FD527D4DBF35D8037E37C25B /* libPods-cityseeker.a in Frameworks */,
+				5CE35B5E2384EC1500013811 /* libWatermelonDB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE403272316D44600EB0A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A6AC992CA8DB9A9A07433B /* libPods-cityseekerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* cityseeker */ = {
+			isa = PBXGroup;
+			children = (
+				5CD03C762316215B0067B7F7 /* GoogleService-Info.plist */,
+				5CD90C482315930E0066FBD4 /* cityseeker.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				5CC1EF3B23846475004D939F /* Watermelon.swift */,
+				5CC1EF3A23846474004D939F /* cityseeker-Bridging-Header.h */,
+			);
+			name = cityseeker;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CEB0CD223820E6A005118EA /* VideoToolbox.framework */,
+				5CEB0CD023820E36005118EA /* libc.tbd */,
+				5CEB0CCE23820DEE005118EA /* CoreVideo.framework */,
+				5CEB0CCC23820DDF005118EA /* CoreGraphics.framework */,
+				5CEB0CCA23820DCF005118EA /* CoreAudio.framework */,
+				5CEB0CC823820DBB005118EA /* AVFoundation.framework */,
+				5CEB0CC623820DA8005118EA /* AudioToolbox.framework */,
+				5CB055CF2322CF48004ACE9F /* XCTest.framework */,
+				5CE403212316C7A300EB0A89 /* AuthenticationServices.framework */,
+				5CE403222316C7A400EB0A89 /* LocalAuthentication.framework */,
+				5CE4031F2316C78100EB0A89 /* AddressBook.framework */,
+				5CE4031D2316C77300EB0A89 /* SafariServices.framework */,
+				5CE4031B2316C6A700EB0A89 /* libz.tbd */,
+				5CE403192316C69B00EB0A89 /* libc++.tbd */,
+				5CE403172316C68B00EB0A89 /* libsqlite3.0.tbd */,
+				5CE403152316C67800EB0A89 /* CoreTelephony.framework */,
+				5CE403122316C66A00EB0A89 /* SystemConfiguration.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5491B2D7285338AA0F06BF35 /* libPods-cityseeker.a */,
+				DEB567AC188456B1F7B6F38F /* libPods-cityseekerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CE35B592384EC0500013811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE35B5D2384EC0500013811 /* libWatermelonDB.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE4032B2316D44600EB0A89 /* cityseekerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CE4032C2316D44600EB0A89 /* cityseekerTests.m */,
+				5CE4032E2316D44600EB0A89 /* Info.plist */,
+			);
+			path = cityseekerTests;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5CE35B582384EC0500013811 /* WatermelonDB.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* cityseeker */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				5CE4032B2316D44600EB0A89 /* cityseekerTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9028015F5962178E24ED7409 /* Pods */,
+				BFB79C8C299948F0A8B309D0 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* cityseeker.app */,
+				5CE4032A2316D44600EB0A89 /* cityseekerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9028015F5962178E24ED7409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB457ECBECE4DFA835F585 /* Pods-cityseeker.debug.xcconfig */,
+				AEAAF80C7535C44EAA562E7B /* Pods-cityseeker.release.xcconfig */,
+				CA34021015C6C6D983BA7C2F /* Pods-cityseekerTests.debug.xcconfig */,
+				A9E4C53AB2EF078D49CA2D79 /* Pods-cityseekerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFB79C8C299948F0A8B309D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54DFDC371B35464EB277DDF0 /* FontAwesome.ttf */,
+				CDCC661D342F4B50BE708644 /* Ionicons.ttf */,
+				8382B233566E4B3D801CDF34 /* MaterialCommunityIcons.ttf */,
+				AFC72B592DA44FFCB87EB0A1 /* cityseeker.ttf */,
+				5C7A854E526C49729F732D7F /* pingfang.ttf */,
+				A7572EA7E9E64A5C83E7C3D8 /* AntDesign.ttf */,
+				1F3583270662487F9FC1633E /* Entypo.ttf */,
+				AB5FE935C4154D90947A24CE /* EvilIcons.ttf */,
+				E91E98A0C5104160B0A98492 /* Feather.ttf */,
+				4F68F358BB6F4F659E003D5E /* FontAwesome5_Brands.ttf */,
+				5484AAEB765E468D9C7BFFD5 /* FontAwesome5_Regular.ttf */,
+				E102D82D1754441CA6B9D174 /* FontAwesome5_Solid.ttf */,
+				E7E5FBD5A4BE480C8F148F1F /* Fontisto.ttf */,
+				F98E2DCA9ED9415F81421B70 /* Foundation.ttf */,
+				7CB5515523E64F10A531A463 /* MaterialIcons.ttf */,
+				8C52ECCD63E541F3916BDD2C /* Octicons.ttf */,
+				63E62BDAA8AF457398D05E22 /* SimpleLineIcons.ttf */,
+				21B1F7F5BD8946108F5EC2FC /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* cityseeker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cityseeker" */;
+			buildPhases = (
+				C25C4A4C1E291A7A5C16AD9B /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CC0837E9483AE084953E24D8 /* [CP] Copy Pods Resources */,
+				5C9E895A232970190025C252 /* Embed App Extensions */,
+				C27000CE0BED14FEAC71D4A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cityseeker;
+			productName = cityseeker;
+			productReference = 13B07F961A680F5B00A75B9A /* cityseeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CE403292316D44600EB0A89 /* cityseekerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE403312316D44600EB0A89 /* Build configuration list for PBXNativeTarget "cityseekerTests" */;
+			buildPhases = (
+				50AD0E13E7C8EB28EF3E2434 /* [CP] Check Pods Manifest.lock */,
+				5CE403262316D44600EB0A89 /* Sources */,
+				5CE403272316D44600EB0A89 /* Frameworks */,
+				5CE403282316D44600EB0A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE403302316D44600EB0A89 /* PBXTargetDependency */,
+			);
+			name = cityseekerTests;
+			productName = cityseekerTests;
+			productReference = 5CE4032A2316D44600EB0A89 /* cityseekerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 954X2C99E9;
+						LastSwiftMigration = 1120;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+					5CE403292316D44600EB0A89 = {
+						CreatedOnToolsVersion = 10.3;
+						DevelopmentTeam = 954X2C99E9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cityseeker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				"zh-Hans",
+				fr,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5CE35B592384EC0500013811 /* Products */;
+					ProjectRef = 5CE35B582384EC0500013811 /* WatermelonDB.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* cityseeker */,
+				5CE403292316D44600EB0A89 /* cityseekerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5CE35B5D2384EC0500013811 /* libWatermelonDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libWatermelonDB.a;
+			remoteRef = 5CE35B5C2384EC0500013811 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C970B7323468E9D0033DE25 /* FontAwesome.ttf in Resources */,
+				5C970B7423468E9D0033DE25 /* Ionicons.ttf in Resources */,
+				5C970B7523468E9D0033DE25 /* MaterialCommunityIcons.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5CD03C772316215C0067B7F7 /* GoogleService-Info.plist in Resources */,
+				FFF4B94C94BC484DAC3F0EE0 /* cityseeker.ttf in Resources */,
+				A1AEDF6C555148B993AC1FF0 /* pingfang.ttf in Resources */,
+				501F48CD6B944AF8B807D0D5 /* AntDesign.ttf in Resources */,
+				5C8A42BFA2744D89AD86B2D3 /* Entypo.ttf in Resources */,
+				6C24C7F7BEA54F29B7C775C5 /* EvilIcons.ttf in Resources */,
+				1C8DD0ACD6C04F678297BC0E /* Feather.ttf in Resources */,
+				7418E262B6954FA1A26C71CE /* FontAwesome5_Brands.ttf in Resources */,
+				AB455F606C33422AB2CA3A79 /* FontAwesome5_Regular.ttf in Resources */,
+				C72E77725E9E412D906BF155 /* FontAwesome5_Solid.ttf in Resources */,
+				4C52AB2EC4104FE39032D3F0 /* Fontisto.ttf in Resources */,
+				563451502B2F474CBD4849E0 /* Foundation.ttf in Resources */,
+				0FE907CBF2674A38A358FF26 /* MaterialIcons.ttf in Resources */,
+				158D33B26B684E98832E10CB /* Octicons.ttf in Resources */,
+				6F6121AFA82C4736985084E5 /* SimpleLineIcons.ttf in Resources */,
+				3E125EEDA879400AAADC4B4C /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE403282316D44600EB0A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=$(which node)\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		50AD0E13E7C8EB28EF3E2434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cityseekerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C25C4A4C1E291A7A5C16AD9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cityseeker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27000CE0BED14FEAC71D4A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cityseeker/Pods-cityseeker-frameworks.sh",
+				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/JitsiMeet.framework",
+				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JitsiMeet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cityseeker/Pods-cityseeker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0837E9483AE084953E24D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cityseeker/Pods-cityseeker-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/RSKImageCropper/RSKImageCropper/RSKImageCropperStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RSKImageCropperStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cityseeker/Pods-cityseeker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				5CC1EF3C23846475004D939F /* Watermelon.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CE403262316D44600EB0A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE4032D2316D44600EB0A89 /* cityseekerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CE403302316D44600EB0A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* cityseeker */;
+			targetProxy = 5CE4032F2316D44600EB0A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADB457ECBECE4DFA835F585 /* Pods-cityseeker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = No;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CODE_SIGN_ENTITLEMENTS = cityseeker/cityseeker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 954X2C99E9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"${PODS_ROOT}/GoogleSignIn/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../react-native/React",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BugsnagReactNative\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKCoreKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKShareKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/Headers/Public/QBImagePickerController\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTWeChat\"",
+					"\"${PODS_ROOT}/Headers/Public/RNAudio\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGoogleSignin\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNLocalize\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNUserDefaults\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/RSKImageCropper\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-DevSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTActionSheet\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTLinking\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTSettings\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTVibration\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTWebSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-fishhook\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-fbsdk\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-keyboard-input\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-keyboard-tracking-view\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safari-view\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-video\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-webview\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+				);
+				INFOPLIST_FILE = cityseeker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddyauden.cityseeker;
+				PRODUCT_NAME = cityseeker;
+				SWIFT_OBJC_BRIDGING_HEADER = "cityseeker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAAF80C7535C44EAA562E7B /* Pods-cityseeker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = No;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CODE_SIGN_ENTITLEMENTS = cityseeker/cityseeker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_TEAM = 954X2C99E9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"${PODS_ROOT}/GoogleSignIn/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../react-native/React",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BugsnagReactNative\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKCoreKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKLoginKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FBSDKShareKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/Headers/Public/QBImagePickerController\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTWeChat\"",
+					"\"${PODS_ROOT}/Headers/Public/RNAudio\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGoogleSignin\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNLocalize\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNUserDefaults\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/RSKImageCropper\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-DevSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTActionSheet\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTLinking\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTSettings\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTVibration\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTWebSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-fishhook\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-fbsdk\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-keyboard-input\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-keyboard-tracking-view\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safari-view\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-video\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-webview\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+				);
+				INFOPLIST_FILE = cityseeker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddyauden.cityseeker;
+				PRODUCT_NAME = cityseeker;
+				SWIFT_OBJC_BRIDGING_HEADER = "cityseeker-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		5CE403322316D44600EB0A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA34021015C6C6D983BA7C2F /* Pods-cityseekerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 954X2C99E9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = cityseekerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddyauden.cityseekerTests.cityseekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cityseeker.app/cityseeker";
+			};
+			name = Debug;
+		};
+		5CE403332316D44600EB0A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E4C53AB2EF078D49CA2D79 /* Pods-cityseekerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 954X2C99E9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				INFOPLIST_FILE = cityseekerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddyauden.cityseekerTests.cityseekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cityseeker.app/cityseeker";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cityseeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE403312316D44600EB0A89 /* Build configuration list for PBXNativeTarget "cityseekerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE403322316D44600EB0A89 /* Debug */,
+				5CE403332316D44600EB0A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "cityseeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

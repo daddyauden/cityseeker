@@ -1,0 +1,27 @@
+import React from 'react';
+
+module.exports = {
+    name: 'cityseeker',
+    bundle_identifier: 'com.daddyauden.cityseeker',
+    group_name: 'group.com.daddyauden',
+    version: 3.0,
+    fb_api_version: 'v4.0',
+    appID: 'com-daddyauden-cityseeker-201811101614',
+    javaScriptKey: 'com-daddyauden-cityseeker-201811101614-js',
+    masterKey: 'com-daddyauden-cityseeker-201811101614-mk',
+    bugsnag_api_key: '***',
+    wxappid: '***',
+    wxsecret: '***',
+    google_map_key: '***',
+    locale: 'zh-CN',
+    speech_format: 'aac',
+    speech_locale: 'zh-CN',
+    speech_encoding: 'aac',
+    graphql_host: 'http://localhost:4000/graphql',
+    admin_host: 'https://{country}.cityseeker.com/app',
+    apicenter: 'https://www.cityseeker.com/api',
+    media_host: 'https://media.cityseeker.com',
+    parse_host: 'https://parser.cityseeker.com',
+    chat_host: 'https://chat.cityseeker.com',
+    avatar_host: 'https://www.cityseeker.com/api/media/user/avatar',
+};

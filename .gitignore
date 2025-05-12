@@ -1,0 +1,77 @@
+# OSX
+#
+.DS_Store
+.idea
+
+__tests__/*
+
+# Android/IntelliJ
+#
+android/.gradle
+android/.idea
+android/build/
+android/*.iml
+android/*.hprof
+android/local.properties
+android/app/build/
+android/app/release/
+android/app/*.iml
+android/app/*.bzl
+android/app/src/debug/
+android/app/src/main/res/raw/
+android/app/src/main/res/drawable*
+
+# Xcode
+#
+ios/assets/
+ios/build/
+ios/cityseeker.xcworkspace
+ios/Pods/
+ios/Podfile.lock
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+.vscode/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+coverage/
+
+# BUCK
+buck-out/
+.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+android/app/src/main/assets/index.android.bundle
+ios/cityseeker/main.jsbundle

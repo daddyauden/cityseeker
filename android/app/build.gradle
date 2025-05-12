@@ -1,0 +1,135 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+}
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+apply plugin: "com.android.application"
+
+import com.android.build.OutputFile
+
+project.ext.react = [
+        entryFile    : "index.js",
+        iconFontNames: ['cityseeker.ttf', 'pingfang.ttf', 'MaterialCommunityIcons.ttf', 'Ionicons.ttf', 'icomoon.ttf', 'FontAwesome.ttf', 'custom.ttf'],
+        enableHermes : false,
+]
+
+apply from: "../../node_modules/react-native/react.gradle"
+
+def enableSeparateBuildPerCPUArchitecture = false
+
+def enableProguardInReleaseBuilds = true
+
+def jscFlavor = 'org.webkit:android-jsc:+'
+
+def enableHermes = project.ext.react.get("enableHermes", false);
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.daddyauden.cityseeker"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "2.0"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+
+    splits {
+        abi {
+            reset()
+            enable enableSeparateBuildPerCPUArchitecture
+            universalApk false
+            include "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('/Users/auden/.android/debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        release {
+            storeFile file('/Volumes/D2/cityseeker/keys/android/20190402-upload.keystore')
+            storePassword 'handon'
+            keyAlias 'cityseeker'
+            keyPassword '20190402'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def versionCodes = ["armeabi-v7a": 1, "x86": 2, "arm64-v8a": 3, "x86_64": 4]
+            def abi = output.getFilter(OutputFile.ABI)
+            if (abi != null) {
+                output.versionCodeOverride =
+                        versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
+            }
+
+        }
+    }
+
+    packagingOptions {
+        pickFirst '**/x86/libc++_shared.so'
+        pickFirst '**/x86/libjsc.so'
+        pickFirst '**/x86_64/libjsc.so'
+        pickFirst '**/x86_64/libc++_shared.so'
+        pickFirst '**/arm64-v8a/libc++_shared.so'
+        pickFirst '**/armeabi-v7a/libc++_shared.so'
+        pickFirst '**/armeabi-v7a/libjsc.so'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "com.facebook.react:react-native:+"
+
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation project(":reactnativekeyboardinput")
+
+    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+
+    implementation "com.google.android.gms:play-services-base:17.1.0"
+
+    if (enableHermes) {
+        def hermesPath = "../../node_modules/hermes-engine/android/";
+        debugImplementation files(hermesPath + "hermes-debug.aar")
+        releaseImplementation files(hermesPath + "hermes-release.aar")
+    } else {
+        implementation jscFlavor
+    }
+}
+
+task copyDownloadableDepsToLibs(type: Copy) {
+    from configurations.compile
+    into 'libs'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

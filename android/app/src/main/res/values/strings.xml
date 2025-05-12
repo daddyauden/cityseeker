@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">cityseeker</string>
+    <string name="share_extension_name">cityseeker</string>
+    <string name="no_browser_found">No Browser Found</string>
+    <string name="server_client_id">AIzaSyDaWQ48Zu_gaFcuq9br-KHL7GbYrIoCUUk</string>
+    <string name="facebook_app_id">1406676506156633</string>
+    <string name="fb_login_protocol_scheme">fb1406676506156633</string>
+    <string name="google_geo_API_KEY">AIzaSyAeoqkbxT6GYsUqwhNUfsE55Qo9LPToDlo</string>
+    <string name="default_notification_channel_id">cityseeker_channel_01</string>
+</resources>

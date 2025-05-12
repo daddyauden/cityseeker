@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "109068183615",
+    "firebase_url": "https://cityseeker-1521570569873.firebaseio.com",
+    "project_id": "cityseeker-1521570569873",
+    "storage_bucket": "cityseeker-1521570569873.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109068183615:android:5a09b45a6d8bf15e",
+        "android_client_info": {
+          "package_name": "com.daddyauden.cityseeker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109068183615-dpditm05k16s70vhm29ct32pct8q2lko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daddyauden.cityseeker",
+            "certificate_hash": "75e7ef72e7c265229e0e46dd394f7facc9a9522f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeoqkbxT6GYsUqwhNUfsE55Qo9LPToDlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109068183615-7ur1v4sd795b4gfc9j7br1lf0q0ll83m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "109068183615-cemfo2eiij72kp504ms2ptu6cctr3dbd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.daddyauden.cityseeker",
+                "app_store_id": "1449550470"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
